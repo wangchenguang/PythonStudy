@@ -1,6 +1,5 @@
 import time, threading
 
-
 def pool():
     print('thread %s is running...' % threading.current_thread().name)
     n = 0
