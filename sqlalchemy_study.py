@@ -10,6 +10,7 @@ class Region(Base):
     RegionID = Column(String(255), primary_key=True)
     RegionName = Column(String(255))
 
+
 engine = create_engine('mysql+pymysql://root:root@localhost:3306/test')
 DBSession = sessionmaker(bind=engine)
 # 创建session对象:
