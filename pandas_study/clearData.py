@@ -8,3 +8,5 @@ df2 = DataFrame(data, index=['ZhangFei', 'GuanYu', 'ZhaoYuan', 'HuangZhong', 'Di
 print(df2)
 df2 = df2.drop(index=['ZhangFei'])
 print(df2)
+df2 = df2.drop_duplicates()
+print(df2)
